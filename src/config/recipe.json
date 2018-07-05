@@ -1,0 +1,573 @@
+[
+    {
+        "name": "Crock Pot Roast",
+        "ingredients": [
+            {
+                "quantity": "1",
+                "name": "beef roast",
+                "type": "Meat"
+            },
+            {
+                "quantity": "1 package",
+                "name": "brown gravy mix",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 package",
+                "name": "dried Italian salad dressing mix",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 package",
+                "name": "dry ranch dressing mix",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/2 cup",
+                "name": "water",
+                "type": "Drinks"
+            }
+        ],
+        "steps": [
+            "Place beef roast in crock pot.",
+            "Mix the dried mixes together in a bowl and sprinkle over the roast.",
+            "Pour the water around the roast.",
+            "Cook on low for 7-9 hours."
+        ],
+        "timers": [
+            0,
+            0,
+            0,
+            420
+        ],
+        "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg",
+        "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+        "description": "Place thinly sliced celery on the bottom of Crock Pot, add carrots and quartered potatoes, then roast."
+    },
+    {
+        "name": "Roasted Asparagus",
+        "ingredients": [
+            {
+                "quantity": "1 lb",
+                "name": "asparagus",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1 1/2 tbsp",
+                "name": "olive oil",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/2 tsp",
+                "name": "kosher salt",
+                "type": "Baking"
+            }
+        ],
+        "steps": [
+            "Preheat oven to 425°F.",
+            "Cut off the woody bottom part of the asparagus spears and discard.",
+            "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears (this keeps the asparagus from being all.\",string.\", and if you eat asparagus you know what I mean by that).",
+            "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
+            "Sprinkle with salt.",
+            "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
+            "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
+            "They should be tender when pierced with the tip of a knife.",
+            "The tips of the spears will get very brown but watch them to prevent burning.",
+            "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
+        ],
+        "timers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0
+        ],
+        "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg",
+        "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847",
+        "description": "Thick asparagus work best for grilling, get the chubbiest spears you can. Thin spears will dry out before they get a good char."
+    },
+    {
+        "name": "Curried Lentils and Rice",
+        "ingredients": [
+            {
+                "quantity": "1 quart",
+                "name": "beef broth",
+                "type": "Misc"
+            },
+            {
+                "quantity": "1 cup",
+                "name": "dried green lentils",
+                "type": "Misc"
+            },
+            {
+                "quantity": "1/2 cup",
+                "name": "basmati rice",
+                "type": "Misc"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "curry powder",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "salt",
+                "type": "Condiments"
+            }
+        ],
+        "steps": [
+            "Bring broth to a low boil.",
+            "Add curry powder and salt.",
+            "Cook lentils for 20 minutes.",
+            "Add rice and simmer for 20 minutes.",
+            "Enjoy!"
+        ],
+        "timers": [
+            0,
+            0,
+            20,
+            20,
+            0
+        ],
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg",
+        "description": "Inspired by more traditional Indian recipes, this quick and easy curried rice and lentils is a full vegetarian and vegan meal right out of your crock pot or slow cooker."
+    },
+    {
+        "name": "Big Night Pizza",
+        "ingredients": [
+            {
+                "quantity": "5 teaspoons",
+                "name": "yeast",
+                "type": "Baking"
+            },
+            {
+                "quantity": "5 cups",
+                "name": "flour",
+                "type": "Baking"
+            },
+            {
+                "quantity": "4 tablespoons",
+                "name": "vegetable oil",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 tablespoons",
+                "name": "sugar",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 teaspoons",
+                "name": "salt",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 cups",
+                "name": "hot water",
+                "type": "Misc"
+            },
+            {
+                "quantity": "1/4 cup",
+                "name": "pizza sauce",
+                "type": "Misc"
+            },
+            {
+                "quantity": "3/4 cup",
+                "name": "mozzarella cheese",
+                "type": "Dairy"
+            }
+        ],
+        "steps": [
+            "Add hot water to yeast in a large bowl and let sit for 15 minutes.",
+            "Mix in oil, sugar, salt, and flour and let sit for 1 hour.",
+            "Knead the dough and spread onto a pan.",
+            "Spread pizza sauce and sprinkle cheese.",
+            "Add any optional toppings as you wish.",
+            "Bake at 400 deg Fahrenheit for 15 minutes.",
+            "Enjoy!"
+        ],
+        "timers": [
+            15,
+            60,
+            0,
+            0,
+            0,
+            15,
+            0
+        ],
+        "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg",
+        "description": "Pizza is a traditional Italian dish consisting of a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven. "
+    },
+    {
+        "name": "Cranberry and Apple Stuffed Acorn Squash Recipe",
+        "ingredients": [
+            {
+                "quantity": "2",
+                "name": "acorn squash",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1",
+                "name": "boiling water",
+                "type": "Drinks"
+            },
+            {
+                "quantity": "2",
+                "name": "apples chopped into 1.4 inch pieces",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1/2 cup",
+                "name": "dried cranberries",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1 teaspoon",
+                "name": "cinnamon",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 tablespoons",
+                "name": "melted butter",
+                "type": "Dairy"
+            }
+        ],
+        "steps": [
+            "Cut squash in half, remove seeds.",
+            "Place squash in baking dish, cut-side down.",
+            "Pour 1/4-inch water into dish.",
+            "Bake for 30 minutes at 350 degrees F.",
+            "In large bowl, combine remaining ingredients.",
+            "Remove squash from oven, fill with mix.",
+            "Bake for 30-40 more minutes, until squash tender.",
+            "Enjoy!"
+        ],
+        "timers": [
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            30,
+            0
+        ],
+        "imageURL": "http://elanaspantry.com/wp-content/uploads/2008/10/acorn_squash_with_cranberry.jpg",
+        "originalURL": "",
+        "description": "This stuffed acorn squash recipe is literally like autumn in your mouth bursting with ingredients like apples, cranberries, pecans and more."
+    },
+    {
+        "name": "Mic's Yorkshire Puds",
+        "ingredients": [
+            {
+                "quantity": "200g",
+                "name": "plain flour",
+                "type": "Baking"
+            },
+            {
+                "quantity": "3",
+                "name": "eggs",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "300ml",
+                "name": "milk",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "3 tbsp",
+                "name": "vegetable oil",
+                "type": "Condiments"
+            }
+        ],
+        "steps": [
+            "Put the flour and some seasoning into a large bowl.",
+            "Stir in eggs, one at a time.",
+            "Whisk in milk until you have a smooth batter.",
+            "Chill in the fridge for at least 30 minutes.",
+            "Heat oven to 220C/gas mark 7.",
+            "Pour the oil into the holes of a 8-hole muffin tin.",
+            "Heat tin in the oven for 5 minutes.",
+            "Ladle the batter mix into the tin.",
+            "Bake for 30 minutes until well browned and risen."
+        ],
+        "timers": [
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            5,
+            0,
+            30
+        ],
+        "imageURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
+        "originalURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
+        "description": "A perfect Yorkshire Pudding mixture needs to be light and airy, with the fat in the bottom of the cooking dish needing to be as hot as possible in order for it to rise."
+    },
+    {
+        "name": "Old-Fashioned Oatmeal Cookies",
+        "ingredients": [
+            {
+                "quantity": "1 cup",
+                "name": "raisins",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1",
+                "name": "cup water",
+                "type": "Drinks"
+            },
+            {
+                "quantity": "3/4 cup",
+                "name": "shortening",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 1/2 cups",
+                "name": "sugar",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 1/2 cups",
+                "name": "flour",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 tsp.",
+                "name": "soda",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 tsp.",
+                "name": "salt",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 tsp.",
+                "name": "cinnamon",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1/2 tsp.",
+                "name": "baking powder",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1/2 tsp.",
+                "name": "cloves",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 cups",
+                "name": "oats",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1/2 cup",
+                "name": "chopped nuts",
+                "type": "Baking"
+            }
+        ],
+        "steps": [
+            "Simmer raisins and water over medium heat until raisins are plump, about 15 minutes.",
+            "Drain raisins, reserving the liquid.",
+            "Add enough water to reserved liquid to measure 1/2 cup.",
+            "Heat oven to 400°.",
+            "Mix thoroughly shortening, sugar, eggs and vanilla.",
+            "Stir in reserved liquid.",
+            "Blend in remaining ingredients.",
+            "Drop dough by rounded teaspoonfuls about 2 inches apart onto ungreased baking sheet.",
+            "Bake 8 to 10 minutes or until light brown.",
+            "About 6 1/2 dozen cookies."
+        ],
+        "timers": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+        ],
+        "imageURL": "http://s3.amazonaws.com/gmi-digital-library/65caecf7-a8f7-4a09-8513-2659cf92871e.jpg",
+        "originalURL": "#",
+        "description": "Buttery soft, old-fashioned vanilla oatmeal cookies that melt in your mouth! Simply spiced with a little nutmeg, these are just like grandma used to make… but better."
+    },
+    {
+        "name": "Blueberry Oatmeal Squares",
+        "ingredients": [
+            {
+                "quantity": "2-1/2 cups",
+                "name": "rolled oats, (not instant)",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1-1/4 cups",
+                "name": "all-purpose flour",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 tbsp",
+                "name": "grated orange rind",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1/4 tsp",
+                "name": "salt",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 cup",
+                "name": "cold butter, cubed",
+                "type": "Baking"
+            },
+            {
+                "quantity": "3/4 cup",
+                "name": "packed brown sugar",
+                "type": "Baking"
+            },
+            {
+                "quantity": "3 cups",
+                "name": "fresh blueberries",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1/2 cup",
+                "name": "granulated sugar",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1/3 cup",
+                "name": "orange juice",
+                "type": "Produce"
+            },
+            {
+                "quantity": "4 tsp",
+                "name": "cornstarch",
+                "type": "Baking"
+            }
+        ],
+        "steps": [
+            "Filling: In saucepan, bring blueberries, sugar and orange juice to boil; reduce heat and simmer until tender, about 10 minutes.",
+            "Whisk cornstarch with 2 tbsp (25 mL) water; whisk into blueberries and boil, stirring, until thickened, about 1 minute.",
+            "Place plastic wrap directly on surface; refrigerate until cooled, about 1 hour.",
+            "In large bowl, whisk together oats, flour, sugar, orange rind and salt ; with pastry blender, cut in butter until in coarse crumbs.",
+            "Press half into 8-inch (2 L) square parchment paper–lined metal cake pan; spread with blueberry filling.",
+            "Bake in centre of 350°F oven until light golden, about 45 minutes.",
+            "Let cool on rack before cutting into squares.",
+            "(Make-ahead: Cover and refrigerate for up to 2 days or overwrap with heavy-duty foil and freeze for up to 2 weeks.)"
+        ],
+        "timers": [
+            10,
+            1,
+            60,
+            0,
+            0,
+            45,
+            0,
+            0
+        ],
+        "imageURL": "data:image/jpeg;base64,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",
+        "originalURL": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php",
+        "description": "These blueberry oatmeal crumble bars are bursting with juicy blueberries, and filled with crunchy oatmeal crumble."
+    },
+    {
+        "name": "Curried chicken salad",
+        "ingredients": [
+            {
+                "quantity": "3",
+                "name": "skinless, boneless chicken breasts, halved lengthwise",
+                "type": "Meat"
+            },
+            {
+                "quantity": "1/2 cup",
+                "name": "mayonnaise",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 tbsp",
+                "name": "lemon zest",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1 tbsp ",
+                "name": "lemon juice",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1 1/2 tsp",
+                "name": "curry powder",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1/4 tsp",
+                "name": "salt",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2",
+                "name": "ripe mangoes, diced",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1/4 cup",
+                "name": "dried cranberries",
+                "type": "Produce"
+            },
+            {
+                "quantity": "2",
+                "name": "green onions, thinly sliced",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1",
+                "name": "celery stalk, finely chopped",
+                "type": "Produce"
+            },
+            {
+                "quantity": "6 leaves",
+                "name": "Boston lettuce",
+                "type": "Produce"
+            },
+            {
+                "quantity": "6",
+                "name": "English muffins, toasted",
+                "type": "Misc"
+            }
+        ],
+        "steps": [
+            "ARRANGE chicken in a single layer in a large pot.",
+            "Add water to just cover.",
+            "Bring to a boil over medium-high.",
+            "Flip chicken, reduce heat to medium and simmer until cooked, about 6 more min.",
+            "Cool.",
+            "STIR mayo with lemon zest, juice, curry and salt in large bowl.",
+            "Using 2 forks, shred chicken, then stir into mayo mixture with mango, cranberries, green onions and celery.",
+            "Divide among muffins with lettuce leaves",
+            "Sandwich with tops"
+        ],
+        "timers": [
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
+        "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/",
+        "description": "Elevate your chicken salad with the warm glow of curry, it has the perfect note of spice sweetness, crunch and acidity."
+    }
+]

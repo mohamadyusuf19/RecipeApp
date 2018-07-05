@@ -2,22 +2,13 @@ import React, { Component } from 'react';
 import {  View, Text, StyleSheet, FlatList, Image, TouchableOpacity } from 'react-native';
 import Header from '../components/Header';
 import Data from '../config/recipe.json';
+import CardSection from '../components/CardSection';
 
 const bookmarkIcon = require('../assets/bookmark.png')
-const favoriteIcon = require('../assets/like.png')
+const favoriteIcon = require('../assets/favorite.png')
 const commentIcon = require('../assets/speech-bubble.png')
 
-export default class Recipe extends Component {
-  state = {
-    liked: false,
-  };
-  
-  _onPressBtn() {
-    this.setState({
-      liked: !this.state.liked,
-    });
-  }
-
+export default class Recipe extends Component {  
   uppercase(str) {
       var array1 = str.split(' ');
       var newarray1 = [];
@@ -32,55 +23,12 @@ export default class Recipe extends Component {
     this.props.navigation.navigate('DetailMasakan', {detail: indexDetail})
   }
 
-  likedStyles() {
-    if(!this.state.liked) {
-      return (
-        styles.liked
-      )
-    }
-    return (styles.icon)
-  }
-  
-  _renderItem = ({item}) => {    
-    console.log(item.ingredients)
-    return (
-    <View style={styles.row}>
-      <Text style={styles.title}>{item.name}</Text>
-      <Image source={{ uri:item.imageURL }} style={styles.images} />
-      <View style={styles.column}>
-        <TouchableOpacity>
-          <Image source={bookmarkIcon} style={styles.bookmark}/>
-        </TouchableOpacity>
-        <TouchableOpacity
-          onPress={() => this._onPressBtn()}          
-          underlayColor="#fefefe"        
-        >
-          <Image source={favoriteIcon} style={this.likedStyles()} key={item.name}/>      
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <Image source={commentIcon} style={styles.bookmark}/>        
-        </TouchableOpacity>        
-      </View>      
-      <Text style={styles.descriptionTitle}>Description :</Text>
-      <Text style={styles.description}>{`${item.description}`.toLowerCase()}</Text>
-      <TouchableOpacity style={styles.button} onPress={() => this.showDetail([
-        item.name,        
-        item.steps,
-        item.imageURL,
-        item.ingredients,
-        item.description      
-      ])}>
-        <Text style={styles.textButton}>More Detail</Text>
-      </TouchableOpacity>
-    </View>
-  )};
-
   render() {
     console.log(Data)
     return (
       <View style={styles.container}>
         <Header
-          header="RECIPES"
+          header="EATING"
         />
         <FlatList
           data={Data}            
@@ -90,6 +38,37 @@ export default class Recipe extends Component {
       </View>
     );
   }
+
+  _renderItem = ({item}) => {    
+    console.log(item.ingredients)
+    return (
+    <CardSection>
+      <Text style={styles.title}>{item.name}</Text>                   
+      <Image source={{ uri:item.imageURL }} style={styles.images} />
+      <View style={styles.column}>
+        <TouchableOpacity>
+          <Image source={bookmarkIcon} style={styles.icon}/>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Image source={favoriteIcon} style={styles.icon} key={item.name}/>      
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Image source={commentIcon} style={styles.icon}/>        
+        </TouchableOpacity>        
+      </View>
+      <Text style={styles.descriptionTitle}>Description :</Text>
+      <Text style={styles.description}>{`${item.description}`.toLowerCase()}</Text>    
+      <TouchableOpacity style={styles.button} onPress={() => this.showDetail([
+        item.name,        
+        item.steps,
+        item.imageURL,
+        item.ingredients,
+        item.description      
+      ])}>
+        <Text style={styles.textButton}>More Detail</Text>
+      </TouchableOpacity>
+    </CardSection> 
+  )};
 }
 
 const styles = StyleSheet.create({
@@ -98,7 +77,7 @@ const styles = StyleSheet.create({
     },
     row: {
       flex: 1,
-      height: 450,
+      height: 400,
       padding: 5,
       margin: 5,
       marginBottom: 10,
@@ -117,13 +96,7 @@ const styles = StyleSheet.create({
     },
     images: {
       height: 200,      
-    },
-    bookmark: {
-      height: 25,
-      width: 25,     
-      margin: 5,
-      tintColor: '#717f78' 
-    },
+    },    
     description: {
       fontSize: 16,      
       marginRight: 8,
@@ -136,13 +109,14 @@ const styles = StyleSheet.create({
       alignSelf: 'center',
       justifyContent: 'center',
       alignItems: 'center',
-      borderColor: '#717f78',
+      backgroundColor: '#000',
       borderWidth: 1,
       marginTop: 8,
+      marginBottom: 8,
       borderRadius: 5
     },
     textButton: {
-      color: '#717f78'
+      color: '#fff'
     },
     descriptionTitle: {
       fontSize: 16,
@@ -160,13 +134,6 @@ const styles = StyleSheet.create({
     icon: {
       width: 25,
       height: 25,
-      margin: 5,
-      tintColor: '#717f78',
-    },
-    liked: {
-      width: 25,
-      height: 25,
-      margin: 5,
-      tintColor: '#e74c3c',
-    },
+      margin: 5,      
+    }    
 })

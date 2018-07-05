@@ -1,7 +1,6 @@
 import React from 'react';
-import { Image, StyleSheet } from 'react-native';
+import { Image, StyleSheet, Easing, Animated } from 'react-native';
 import { createBottomTabNavigator, createStackNavigator } from 'react-navigation';
-import getSlideFromRightTransition from 'react-navigation-slide-from-right-transition';
 import Recipe from '../screen/Recipe';
 import Profile from '../screen/Profile';
 import Favorite from '../screen/Favorite';
@@ -86,6 +85,30 @@ const Routes = createBottomTabNavigator({
     }
 });
 
+const transitionConfig = () => {
+    return {
+      transitionSpec: {
+        duration: 300,
+        easing: Easing.out(Easing.poly(4)),
+        timing: Animated.timing,
+        useNativeDriver: true,
+      },
+      screenInterpolator: sceneProps => {      
+        const { layout, position, scene } = sceneProps
+  
+        const thisSceneIndex = scene.index
+        const width = layout.initWidth
+  
+        const translateX = position.interpolate({
+          inputRange: [thisSceneIndex - 1, thisSceneIndex],
+          outputRange: [width, 0],
+        })
+  
+        return { transform: [ { translateX } ] }
+      },
+    }
+}
+
 const Navigator = createStackNavigator({
     Home : {
         screen: Routes,
@@ -100,7 +123,7 @@ const Navigator = createStackNavigator({
         }
     }
 }, {
-    transitionConfig: getSlideFromRightTransition
+    transitionConfig
 })
 
 const styles = StyleSheet.create({
